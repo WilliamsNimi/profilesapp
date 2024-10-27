@@ -1,0 +1,1263 @@
+{
+  "version": "38.0.1",
+  "artifacts": {
+    "amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "notificationArns": [],
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/323d96677d15ba5db628babd18892e5250c37621baf1b853e0c0fc4fe1221a05.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9.assets"
+      ],
+      "metadata": {
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyAuth/UserPool/PostConfirmationCognito": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolPostConfirmationCognitoE7E727CF"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionNestedStackfunctionNestedStackResourceE80ED1BDOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambda100D5216Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionNestedStackfunctionNestedStackResourceE80ED1BDOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambda100D5216Arn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthUserPoolBF1F6AB7Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthUserPoolBF1F6AB7Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthUserPoolAppClient76D8DA21Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthUserPoolAppClient76D8DA21Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthIdentityPool24736D40Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthIdentityPool24736D40Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthauthenticatedUserRole44D9D066Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthauthenticatedUserRole44D9D066Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthunauthenticatedUserRole86D06336Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthunauthenticatedUserRole86D06336Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/post-confirmation-lambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambdaServiceRoleD88F89BD"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/post-confirmation-lambda/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambdaServiceRoleDefaultPolicyCD4BF2C1"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/post-confirmation-lambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambda195D98D2"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambda100D5216Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambda100D5216Arn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambda100D5216Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambda100D5216Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambdaServiceRoleD4A955FERef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambdaServiceRoleD4A955FERef"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/function.NestedStack/function.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "function1351588B"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/definedFunctions": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedFunctions"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/GraphQLAPI/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPIDefaultApiKey1C8ED374"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5ApiId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent736825DBArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent736825DBArn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/UserProfileTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/UserProfileTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/CustomTableUserProfileTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/GetAttUserProfileTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttUserProfileTableStreamArn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/GetAttUserProfileTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttUserProfileTableName"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/UserProfileIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileIAMRole"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/UserProfileIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileIAMRoleA4E2934B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileIAMRole"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/UserProfileDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileTable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/UserProfileDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileTable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/QuerygetUserProfileauth0Function/QuerygetUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetUserProfileauth0FunctionQuerygetUserProfileauth0FunctionAppSyncFunctionDAD22839"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/QuerygetUserProfilepostAuth0Function/QuerygetUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetUserProfilepostAuth0FunctionQuerygetUserProfilepostAuth0FunctionAppSyncFunction92890504"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/QueryGetUserProfileDataResolverFn/QueryGetUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetUserProfileDataResolverFnQueryGetUserProfileDataResolverFnAppSyncFunction8EB8BD57"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/queryGetUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/QuerylistUserProfilesauth0Function/QuerylistUserProfilesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistUserProfilesauth0FunctionQuerylistUserProfilesauth0FunctionAppSyncFunction468B41DC"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistUserProfilesauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/QuerylistUserProfilespostAuth0Function/QuerylistUserProfilespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistUserProfilespostAuth0FunctionQuerylistUserProfilespostAuth0FunctionAppSyncFunction01122A7A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistUserProfilespostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/QueryListUserProfilesDataResolverFn/QueryListUserProfilesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListUserProfilesDataResolverFnQueryListUserProfilesDataResolverFnAppSyncFunctionA05E8B7A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListUserProfilesDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/queryListUserProfilesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listUserProfiles"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationcreateUserProfileinit0Function/MutationcreateUserProfileinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateUserProfileinit0FunctionMutationcreateUserProfileinit0FunctionAppSyncFunction7EFE9ED4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateUserProfileinit0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationcreateUserProfileauth0Function/MutationcreateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateUserProfileauth0FunctionMutationcreateUserProfileauth0FunctionAppSyncFunctionCF3841B8"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationcreateUserProfilepostAuth0Function/MutationcreateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateUserProfilepostAuth0FunctionMutationcreateUserProfilepostAuth0FunctionAppSyncFunctionF0C8FEFF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationCreateUserProfileDataResolverFn/MutationCreateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateUserProfileDataResolverFnMutationCreateUserProfileDataResolverFnAppSyncFunction120FE646"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/mutationCreateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationupdateUserProfileinit0Function/MutationupdateUserProfileinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateUserProfileinit0FunctionMutationupdateUserProfileinit0FunctionAppSyncFunction9A840BAA"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateUserProfileinit0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationupdateUserProfileauth0Function/MutationupdateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateUserProfileauth0FunctionMutationupdateUserProfileauth0FunctionAppSyncFunction7E8F945B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationupdateUserProfilepostAuth0Function/MutationupdateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateUserProfilepostAuth0FunctionMutationupdateUserProfilepostAuth0FunctionAppSyncFunction206AFA76"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationUpdateUserProfileDataResolverFn/MutationUpdateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateUserProfileDataResolverFnMutationUpdateUserProfileDataResolverFnAppSyncFunction1707D92F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/mutationUpdateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationdeleteUserProfileauth0Function/MutationdeleteUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteUserProfileauth0FunctionMutationdeleteUserProfileauth0FunctionAppSyncFunction4A3AC4FD"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationdeleteUserProfilepostAuth0Function/MutationdeleteUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteUserProfilepostAuth0FunctionMutationdeleteUserProfilepostAuth0FunctionAppSyncFunctionEE3F21F4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/MutationDeleteUserProfileDataResolverFn/MutationDeleteUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteUserProfileDataResolverFnMutationDeleteUserProfileDataResolverFnAppSyncFunction4835094F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/mutationDeleteUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptiononCreateUserProfileauth0Function/SubscriptiononCreateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateUserProfileauth0FunctionSubscriptiononCreateUserProfileauth0FunctionAppSyncFunctionD90BBD82"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptiononCreateUserProfilepostAuth0Function/SubscriptiononCreateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateUserProfilepostAuth0FunctionSubscriptiononCreateUserProfilepostAuth0FunctionAppSyncFunctionD659A080"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptionOnCreateUserProfileDataResolverFn/SubscriptionOnCreateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateUserProfileDataResolverFnSubscriptionOnCreateUserProfileDataResolverFnAppSyncFunction08AFEB08"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/subscriptionOnCreateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptiononUpdateUserProfileauth0Function/SubscriptiononUpdateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateUserProfileauth0FunctionSubscriptiononUpdateUserProfileauth0FunctionAppSyncFunction48B7E90B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptiononUpdateUserProfilepostAuth0Function/SubscriptiononUpdateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateUserProfilepostAuth0FunctionSubscriptiononUpdateUserProfilepostAuth0FunctionAppSyncFunction446153A7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptionOnUpdateUserProfileDataResolverFn/SubscriptionOnUpdateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateUserProfileDataResolverFnSubscriptionOnUpdateUserProfileDataResolverFnAppSyncFunctionBCF119CA"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/subscriptionOnUpdateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptiononDeleteUserProfileauth0Function/SubscriptiononDeleteUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteUserProfileauth0FunctionSubscriptiononDeleteUserProfileauth0FunctionAppSyncFunction4558BD0E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptiononDeleteUserProfilepostAuth0Function/SubscriptiononDeleteUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteUserProfilepostAuth0FunctionSubscriptiononDeleteUserProfilepostAuth0FunctionAppSyncFunction3E69A1F9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/SubscriptionOnDeleteUserProfileDataResolverFn/SubscriptionOnDeleteUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteUserProfileDataResolverFnSubscriptionOnDeleteUserProfileDataResolverFnAppSyncFunction6EDD6652"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/subscriptionOnDeleteUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/UserProfileProfileOwnerDataResolverFn/UserProfileProfileOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileProfileOwnerDataResolverFnUserProfileProfileOwnerDataResolverFnAppSyncFunction8169467C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileProfileOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/userProfileProfileOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileprofileOwnerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile.profileOwner"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE47681ABOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent736825DBArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE47681ABOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyTableManagerTab82FB2F4D"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5ApiId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPINONEDS6779A4E0Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPINONEDS6779A4E0Name"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthauthenticatedUserRole44D9D066Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthauthenticatedUserRole44D9D066Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthunauthenticatedUserRole86D06336Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthunauthenticatedUserRole86D06336Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthIdentityPool24736D40Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthIdentityPool24736D40Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/UserProfile.NestedStack/UserProfile.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataUserProfileNestedStackUserProfileNestedStackResource1B3713C5"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/GraphqlAccessPolicy1/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GraphqlAccessPolicy11EF5618C"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthUserPoolBF1F6AB7Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthUserPoolBF1F6AB7Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthauthenticatedUserRole44D9D066Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthauthenticatedUserRole44D9D066Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthunauthenticatedUserRole86D06336Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthunauthenticatedUserRole86D06336Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthIdentityPool24736D40Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authNestedStackauthNestedStackResource0238319DOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9authamplifyAuthIdentityPool24736D40Ref"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/reference-to-amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionNestedStackfunctionNestedStackResourceE80ED1BDOutputs.amplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambdaServiceRoleD4A955FERef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionNestedStackfunctionNestedStackResourceE80ED1BDOutputsamplifyprofilesappnimiwilliamssandbox6b4f7c93b9functionpostconfirmationlambdaServiceRoleD4A955FERef"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5ApiId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5GraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPI39891CB5GraphQLUrl"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB5FF26E1CDestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB5FF26E1CDestinationBucketArn"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data/amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPIDefaultApiKey1170F565ApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappnimiwilliamssandbox6b4f7c93b9dataamplifyDataGraphQLAPIDefaultApiKey1170F565ApiKey"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/awsAppsyncApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiKey"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-profilesapp-nimiwilliams-sandbox-6b4f7c93b9"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
